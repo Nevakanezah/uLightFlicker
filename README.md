@@ -34,3 +34,7 @@ I recommend the following settings for the gameObject you're attaching this to:
    uLightFlicker automatically identifies the first Light component on its gameObject parent in order to operate.
 5. Set your desired parameters for uLightFlicker
 6. That's it.
+
+## LICENSE
+This work is released under the CC0 1.0 Universal (CC0 1.0) Public Domain Dedication License. For full details, see:
+https://creativecommons.org/publicdomain/zero/1.0/
