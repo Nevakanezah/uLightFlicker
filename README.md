@@ -8,7 +8,9 @@ This project is based on the work of Steve Streeting's "LightFlickerEffect" C# c
 
 ## DISCLAIMER & REQUIREMENTS:
 This package acts during onUpdate and lateUpdate events, and requires a dynamic(or mixed) light to operate.
+
 Is that performant? Hell no, but we're here for A E S T H E T I C.
+
 This project is also intended for use in VRChat worlds, requriring the VRCWorld gameObject & whatever associated
 packages VRC uses to run Udon. See: https://vcc.docs.vrchat.com/ for additional details.
 
@@ -24,7 +26,7 @@ I recommend the following settings for the gameObject you're attaching this to:
   I'm partial to mixed lighting, as this can provide more consistent brightness than minIntensity alone seems to provide.
 - This should work on any light component with an "intensity" parameter,
   but point lights, spotlights, and maybe directional lights will probably work best.
-- I recommend that your light component does not cast shadows, as this is even worse for performance.
+- I recommend that your light component does not cast shadows, as this is worse for performance.
 
 ## HOW TO USE THIS PACKAGE:
 1. Download the unity package and import it to your project
